@@ -1,4 +1,6 @@
-## Find the contiguous subarray within an array, A of length N which has the largest sum.
+## Problem Description
+
+Find the contiguous subarray within an array, A of length N which has the largest sum.
 
 ## Input 1:
     A = [1, 2, 3, 4, -10]
