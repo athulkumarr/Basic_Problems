@@ -5,15 +5,15 @@ def minimumDifference(self, nums: List[int]) -> int:
 	if len(nums) < 4:
 	    return 0
 
-		# Find the largest 4 and smallest 4 numbers in the list.
+	# Find the largest 4 and smallest 4 numbers in the list.
 	top_4 = nlargest(4, nums)
 	least_4 = nsmallest(4, nums)
 
-		# We have 4 different options namely 
-		# remove all 3 from the largest, 
-		# remove 2 from largest 1 from smallest, 
-		# remove 1 from largest 2 from smallest, 
-		# remove all 3 from smallest
+	# We have 4 different options, 
+	# 	remove all 3 from the largest, 
+	# 	remove 2 from largest 1 from smallest, 
+	# 	remove 1 from largest 2 from smallest, 
+	# 	remove all 3 from smallest
 
 	return int (min
 	(
