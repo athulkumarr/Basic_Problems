@@ -3,7 +3,7 @@ def divide(self, dividend: int, divisor: int) -> int:
 	quotient = 0
 
 	# Determining the sign of the quotient 
-	sign = (-1 if ((dividend < 0) ^ (divisor > 0)) else 1)
+	sign = (-1 if ((dividend < 0) ^ (divisor < 0)) else 1)
 	
 	dividend = abs(dividend)
 	divisor = abs(divisor)
