@@ -27,9 +27,9 @@ class MinChairs
 		return maxChairs;
 	}
 	public static void main(String[] args)
-    {
+	{
 		int S[] = {1, 2, 10, 5, 5};
 		int E[] = {4, 5, 12, 9, 12};
 		System.out.println(minChairs(S, E));
-    }
+	}
 }
