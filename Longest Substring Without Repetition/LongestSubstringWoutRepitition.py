@@ -20,6 +20,6 @@ def lengthOfLongestSubstring(self, s: str) -> int:
 
 								viewedC[c] = right	# update unique character's index
 
-		length = len(s[left:])
+		length = len(s[left:]) 
 
 		return maxLength if maxLength > length else length
