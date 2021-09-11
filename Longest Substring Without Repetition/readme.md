@@ -1,4 +1,6 @@
-## Given a string s, find the length of the longest substring without repeating characters.
+## Problem Description
+
+Given a string s, find the length of the longest substring without repeating characters.
 
 ## Input 1: 
 		s = "abcabcbb"
