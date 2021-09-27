@@ -1,4 +1,5 @@
-#Problem Description
+# Problem Description
+
 You are assigned to put some amount of boxes onto one truck. 
 You are given a 2D array boxTypes, where boxTypes[i] = [numberOfBoxesi, numberOfUnitsPerBoxi]:
 
@@ -26,3 +27,11 @@ Return the maximum total number of units that can be put on the truck.
     boxTypes = [[5,10],[2,5],[4,7],[3,9]], truckSize = 10
 # Output 2: 
     91
+# Explanation: 
+    There are:
+        - 5 boxes of the first type that contains 10 units each.
+        - 2 boxes of the second type that contain 5 units each.
+        - 4 boxes of the third type that contain 7 unit each.
+        - 3 boxes of the third type that contain 9 unit each.
+        You can take all the boxes of the first and fourth types, and two boxes of the third type.
+        The total number of units will be = (5 * 10) + (3 * 9) + (2 * 7) = 91.
