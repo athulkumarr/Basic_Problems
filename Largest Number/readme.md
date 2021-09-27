@@ -20,6 +20,6 @@ Note: The result may be very large, so you need to return a string instead of an
     "1"
 
 # Input 4: 
-    nums = [10]
+    nums = [10, 1]
 # Output 4: 
-    "10"
+    "110"
