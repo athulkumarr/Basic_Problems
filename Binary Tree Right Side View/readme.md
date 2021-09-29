@@ -7,7 +7,7 @@ return the values of the nodes you can see ordered from top to bottom.
     root = [1,2,3,null,5,null,4]
 # Output 1: 
     [1,3,4]
-![Image]1.jpeg
+![Image](1.jpeg)
 
 # Input 2: 
     root = [1,null,3]
