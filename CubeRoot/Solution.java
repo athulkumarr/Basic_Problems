@@ -1,5 +1,8 @@
 import java.io.*;
 public class Solution {
+    // We are using a binary search approach here.
+    // We continue our search till the absolute value of (n – mid*mid*mid) < e, 
+    //        where e is the required precision
     public static void main(String args[])
     {
         int n = 10;
