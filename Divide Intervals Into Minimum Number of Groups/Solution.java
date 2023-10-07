@@ -1,5 +1,6 @@
+import java.util.*;
 class Solution {
-    public int minGroups(int[][] intervals) {
+    public static int minGroups(int[][] intervals) {
         PriorityQueue<Integer> minHeap = new PriorityQueue<>();
         Arrays.sort(intervals, (a,b) -> a[0] - b[0]);
         for(int[] interval : intervals) {
@@ -10,7 +11,7 @@ class Solution {
         return minHeap.size();
     }
     public static void main(String args[]) {
-      int[][] intervals = {{5,10},{6,8},{1,5},{2,3},{1,10};
+      int[][] intervals = {{5,10},{6,8},{1,5},{2,3},{1,10}};
       System.out.println(minGroups(intervals));
     }
 }
