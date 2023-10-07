@@ -11,7 +11,7 @@ class Solution {
         return minHeap.size();
     }
     public static void main(String args[]) {
-      int[][] intervals = {{5,10},{6,8},{1,5},{2,3},{1,10}};
-      System.out.println(minGroups(intervals));
+        int[][] intervals = {{5,10},{6,8},{1,5},{2,3},{1,10}};
+        System.out.println(minGroups(intervals));
     }
 }
